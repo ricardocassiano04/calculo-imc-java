@@ -29,3 +29,5 @@ java CalculoImc
 * Colocar tratamento de erros (não permitir valores fora da realidade, por exemplo);
 * Armazenar dados digitados num banco de dados;
 * Criar um frontend.
+
+Testado com o java 11.
