@@ -9,23 +9,16 @@
 
 #### No Linux
 
-Depois de clonar o repositório, você pode compilar o arquivo java executando:
+Depois de clonar o repositório, você pode executar o programa:
 
 ```
-cd calculo-imc-java/src/calculoImc/
+cd calculo-imc-java/dist/
 
-javac CalculoImc.java
-```
-
-E depois executar:
-
-```
-java CalculoImc
+java -jar CalculoImc-<version>.jar
 ```
 
 
-#### Falta implementar:
+### TODO
 * Verificar o Locale padrão da JVM;
 * Colocar tratamento de erros (não permitir valores fora da realidade, por exemplo);
 * Armazenar dados digitados num banco de dados;
-* Criar um frontend.

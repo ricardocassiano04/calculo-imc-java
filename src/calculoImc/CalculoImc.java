@@ -28,10 +28,10 @@ public class CalculoImc {
 		double imcDesejado = 0.0;
 		
 		
-		System.out.print("Digite seu peso (exemplo 78,60): ");
+		System.out.print("Digite seu peso (exemplo 65,5): ");
 		peso = entrada.nextDouble();
 		
-		System.out.print("Digite sua altura (exemplo 1,70): ");
+		System.out.print("Digite sua altura (exemplo 1,7): ");
 		altura = entrada.nextDouble();
 		
 		System.out.print("O imc normal fica entre 18,50 e 24,99.\n"
